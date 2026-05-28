@@ -15,10 +15,20 @@
     display: flex;
 }
 .middle-container{
-    flex: 1;
+    flex: 0.6;
     background-color: #120E1C;
+    display: flex;
+    flex-direction: column;
 }
 .right-container{
     flex: 1.7;
     background-color: #1B1429;
+}
+.middle-container-up{
+    flex: 1
+}
+.middle-container-down{
+    flex: 7;
+    display: flex;
+    flex-direction: column;
 }
